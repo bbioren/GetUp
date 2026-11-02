@@ -1,12 +1,20 @@
 # GetUp: Apple Watch alarm you can't turn off from bed
 
-## Setup (once Xcode is installed)
-1. Xcode → File → New → Project → watchOS → App. Name it `GetUp`, Interface SwiftUI, "Watch-only App".
-2. Delete the generated `ContentView.swift` and `GetUpApp.swift`, then drag in the 4 files from `GetUp/`.
-3. Select the Watch target → Signing & Capabilities → sign in with your Apple ID (a free account works).
-4. Click + Capability → Background Modes → set Session Type to **Smart Alarm**.
-5. Info tab → add `NSMotionUsageDescription` = "Counts your steps/jumping jacks to turn off the alarm".
-6. Pair your watch (via iPhone), turn on Developer Mode on the watch, select it as the run destination, then hit Run.
+The alarm buzzes until you beat a wake-up challenge:
 
-## Tuning
-Jumping-jack sensitivity is set by the constants at the top of `ChallengeTracker.swift`.
+- **Heart rate** (default): get above your sleeping heart rate + 30 bpm and hold it for 30 s.
+- **Steps** or **jumping jacks**: hit a count.
+
+Then a **stay-up check** fires 10 minutes later. If you haven't walked about 100 steps by then, it rings again.
+
+Heart rate comes from a workout session that is thrown away when it ends, so nothing is saved to Health. The workout session also keeps the app alive, so the alarm can keep buzzing past the watch's ~30 min smart-alarm limit.
+
+Emergency stop: hold the ringing screen for 10 s.
+
+## Build
+```
+brew install xcodegen
+xcodegen generate
+open GetUp.xcodeproj
+```
+In Xcode: select the GetUp target → Signing & Capabilities → Team → your Apple ID. Pick your watch as the run destination and press Run.
