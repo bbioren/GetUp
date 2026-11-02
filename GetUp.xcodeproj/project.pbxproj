@@ -7,22 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41F04C74005748548CC02B33 /* ChallengeTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA362A177A84FD7DB199535 /* ChallengeTracker.swift */; };
-		4AE5DE76CF09F31353B3EE28 /* GetUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4611B5CA999766BF713190 /* GetUpApp.swift */; };
-		857B24E6B079F2A35BE5545F /* HeartRateMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CF1EE10B5010C06DE65243 /* HeartRateMonitor.swift */; };
-		A74567BA75F46C282692CAD4 /* AlarmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176E3D28B1ED07C78F62E418 /* AlarmManager.swift */; };
-		C3DF913B42388AA21FCAE8FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D081A05A690A82EDC1901 /* ContentView.swift */; };
+		26EB1AE4092DB97D31817B35 /* GetUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3F6BFC7ED79716E48EE6C /* GetUpApp.swift */; };
+		91EF04D38C78ED9FA7BFFCC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18014997ABAD35DE78B56C45 /* ContentView.swift */; };
+		A77E5C1ADD1B0085B20E26F1 /* HeartRateMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DC617EEA2A3C8CDB082FAC /* HeartRateMonitor.swift */; };
+		A9E3DD0C76F2F91763700E5A /* GetUpWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A3169E118A15829E7BACDBAA /* GetUpWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA1B7D3DBDB13D3D5935BA8F /* GetUpPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51DCD316AB3E4FC932B92A7 /* GetUpPhoneApp.swift */; };
+		F6BAA70B4D0E04C58676A1E7 /* ChallengeTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983F567B8CCA264462CC28D /* ChallengeTracker.swift */; };
+		FA3A671ACC2FFC9F820A821A /* AlarmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63F02C18E7831717F13EEC2 /* AlarmManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0E1D861A6554E16A64033CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B52CA2F7D39F7347C52198F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B481E8330CC81CC01D0DFC7;
+			remoteInfo = GetUpWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0BCBB8F903765BCA62134FA8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A9E3DD0C76F2F91763700E5A /* GetUpWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		0A798075F66B6B50C041494C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		0C19247B7C426CD6C855360B /* GetUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		176E3D28B1ED07C78F62E418 /* AlarmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmManager.swift; sourceTree = "<group>"; };
-		1B4611B5CA999766BF713190 /* GetUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUpApp.swift; sourceTree = "<group>"; };
-		21CF1EE10B5010C06DE65243 /* HeartRateMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMonitor.swift; sourceTree = "<group>"; };
-		2863181C008415319FA49C55 /* GetUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GetUp.entitlements; sourceTree = "<group>"; };
-		4BA362A177A84FD7DB199535 /* ChallengeTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTracker.swift; sourceTree = "<group>"; };
-		500D081A05A690A82EDC1901 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0C19247B7C426CD6C855360B /* GetUp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GetUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B3F6BFC7ED79716E48EE6C /* GetUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUpApp.swift; sourceTree = "<group>"; };
+		10DE6BA8065E3516DF409685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		18014997ABAD35DE78B56C45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2983F567B8CCA264462CC28D /* ChallengeTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTracker.swift; sourceTree = "<group>"; };
+		423084FE090A193010A4C465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		72DC617EEA2A3C8CDB082FAC /* HeartRateMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMonitor.swift; sourceTree = "<group>"; };
+		9D0B5F12DCC178A07D09464B /* GetUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GetUp.entitlements; sourceTree = "<group>"; };
+		A3169E118A15829E7BACDBAA /* GetUpWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetUpWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63F02C18E7831717F13EEC2 /* AlarmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmManager.swift; sourceTree = "<group>"; };
+		C51DCD316AB3E4FC932B92A7 /* GetUpPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUpPhoneApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -30,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				0C19247B7C426CD6C855360B /* GetUp.app */,
+				A3169E118A15829E7BACDBAA /* GetUpWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -37,23 +67,33 @@
 		D0DDCCD324DBCC7E13425D97 = {
 			isa = PBXGroup;
 			children = (
-				EBB193AF19C5B418396F209D /* GetUp */,
+				E594747F481564FB6B0BBA10 /* iOS */,
+				D761F9DCB95CC169E750AF35 /* Watch */,
 				5A554A9F3D01E70C2299A37A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EBB193AF19C5B418396F209D /* GetUp */ = {
+		D761F9DCB95CC169E750AF35 /* Watch */ = {
 			isa = PBXGroup;
 			children = (
-				176E3D28B1ED07C78F62E418 /* AlarmManager.swift */,
-				4BA362A177A84FD7DB199535 /* ChallengeTracker.swift */,
-				500D081A05A690A82EDC1901 /* ContentView.swift */,
-				2863181C008415319FA49C55 /* GetUp.entitlements */,
-				1B4611B5CA999766BF713190 /* GetUpApp.swift */,
-				21CF1EE10B5010C06DE65243 /* HeartRateMonitor.swift */,
-				0A798075F66B6B50C041494C /* Info.plist */,
+				A63F02C18E7831717F13EEC2 /* AlarmManager.swift */,
+				2983F567B8CCA264462CC28D /* ChallengeTracker.swift */,
+				18014997ABAD35DE78B56C45 /* ContentView.swift */,
+				9D0B5F12DCC178A07D09464B /* GetUp.entitlements */,
+				10B3F6BFC7ED79716E48EE6C /* GetUpApp.swift */,
+				72DC617EEA2A3C8CDB082FAC /* HeartRateMonitor.swift */,
+				423084FE090A193010A4C465 /* Info.plist */,
 			);
-			path = GetUp;
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		E594747F481564FB6B0BBA10 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C51DCD316AB3E4FC932B92A7 /* GetUpPhoneApp.swift */,
+				10DE6BA8065E3516DF409685 /* Info.plist */,
+			);
+			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -64,16 +104,35 @@
 			buildConfigurationList = B11B9791A1A4764AAC6026FB /* Build configuration list for PBXNativeTarget "GetUp" */;
 			buildPhases = (
 				6D11EB5B24E3B1C226B69060 /* Sources */,
+				0BCBB8F903765BCA62134FA8 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0D2E1F9718818CCA1925FEF5 /* PBXTargetDependency */,
 			);
 			name = GetUp;
 			packageProductDependencies = (
 			);
 			productName = GetUp;
 			productReference = 0C19247B7C426CD6C855360B /* GetUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B481E8330CC81CC01D0DFC7 /* GetUpWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8603B6779DBF53415519C096 /* Build configuration list for PBXNativeTarget "GetUpWatch" */;
+			buildPhases = (
+				D700361928B9220423DEFD1C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetUpWatch;
+			packageProductDependencies = (
+			);
+			productName = GetUpWatch;
+			productReference = A3169E118A15829E7BACDBAA /* GetUpWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -86,6 +145,11 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					25EBF25F5E6B1EC7664438CC = {
+						DevelopmentTeam = QBJ4JULSZU;
+						ProvisioningStyle = Automatic;
+					};
+					6B481E8330CC81CC01D0DFC7 = {
+						DevelopmentTeam = QBJ4JULSZU;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -105,6 +169,7 @@
 			projectRoot = "";
 			targets = (
 				25EBF25F5E6B1EC7664438CC /* GetUp */,
+				6B481E8330CC81CC01D0DFC7 /* GetUpWatch */,
 			);
 		};
 /* End PBXProject section */
@@ -114,28 +179,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74567BA75F46C282692CAD4 /* AlarmManager.swift in Sources */,
-				41F04C74005748548CC02B33 /* ChallengeTracker.swift in Sources */,
-				C3DF913B42388AA21FCAE8FF /* ContentView.swift in Sources */,
-				4AE5DE76CF09F31353B3EE28 /* GetUpApp.swift in Sources */,
-				857B24E6B079F2A35BE5545F /* HeartRateMonitor.swift in Sources */,
+				AA1B7D3DBDB13D3D5935BA8F /* GetUpPhoneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D700361928B9220423DEFD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3A671ACC2FFC9F820A821A /* AlarmManager.swift in Sources */,
+				F6BAA70B4D0E04C58676A1E7 /* ChallengeTracker.swift in Sources */,
+				91EF04D38C78ED9FA7BFFCC2 /* ContentView.swift in Sources */,
+				26EB1AE4092DB97D31817B35 /* GetUpApp.swift in Sources */,
+				A77E5C1ADD1B0085B20E26F1 /* HeartRateMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0D2E1F9718818CCA1925FEF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B481E8330CC81CC01D0DFC7 /* GetUpWatch */;
+			targetProxy = 0E1D861A6554E16A64033CF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2BEE50BFAFDD0DF8AC9400B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Watch/GetUp.entitlements;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbioren.GetUp.watchkitapp;
+				PRODUCT_NAME = GetUp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
 		36A7412E39D3158181E38AA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = GetUp/GetUp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GetUp/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbioren.GetUp;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -172,9 +269,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QBJ4JULSZU;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -191,12 +290,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -208,13 +307,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = GetUp/GetUp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GetUp/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbioren.GetUp;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -251,9 +352,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QBJ4JULSZU;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -264,15 +367,29 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		EE7E7A78791CD6CD70F4703E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Watch/GetUp.entitlements;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbioren.GetUp.watchkitapp;
+				PRODUCT_NAME = GetUp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
 			};
 			name = Release;
 		};
@@ -284,6 +401,15 @@
 			buildConfigurations = (
 				6B1D33EBE3AFAF4C792A283F /* Debug */,
 				E6AE6303F4F0B05772DA0203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8603B6779DBF53415519C096 /* Build configuration list for PBXNativeTarget "GetUpWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEE50BFAFDD0DF8AC9400B2 /* Debug */,
+				EE7E7A78791CD6CD70F4703E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

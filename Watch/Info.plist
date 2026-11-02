@@ -33,7 +33,9 @@
 		<string>alarm</string>
 		<string>workout-processing</string>
 	</array>
-	<key>WKWatchOnly</key>
+	<key>WKCompanionAppBundleIdentifier</key>
+	<string>com.bbioren.GetUp</string>
+	<key>WKRunsIndependentlyOfCompanionApp</key>
 	<true/>
 </dict>
 </plist>

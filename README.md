@@ -17,4 +17,4 @@ brew install xcodegen
 xcodegen generate
 open GetUp.xcodeproj
 ```
-In Xcode: select the GetUp target → Signing & Capabilities → Team → your Apple ID. Pick your watch as the run destination and press Run.
+In Xcode, set Team on both targets, pick your iPhone as the run destination, and press Run. Then open the Watch app on the iPhone → Available Apps → Install GetUp. (The iPhone app is just a carrier for the watch app.)
