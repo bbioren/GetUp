@@ -2,7 +2,7 @@ name: GetUp
 options:
   bundleIdPrefix: com.bbioren
   deploymentTarget:
-    iOS: "17.0"
+    iOS: "26.0"
     watchOS: "10.0"
 settings:
   base:
@@ -12,18 +12,20 @@ settings:
     DEVELOPMENT_TEAM: QBJ4JULSZU
     CODE_SIGN_STYLE: Automatic
 targets:
-  # iPhone companion: installing this on the phone pushes the watch app to the watch.
+  # iPhone alarm app (AlarmKit + step counting). Runs on its own.
   GetUp:
     type: application
     platform: iOS
     sources: [iOS]
-    dependencies:
-      - target: GetUpWatch
     info:
       path: iOS/Info.plist
       properties:
         CFBundleDisplayName: GetUp
         UILaunchScreen: {}
+        UIRequiresFullScreen: true
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        NSAlarmKitUsageDescription: GetUp sets alarms that keep ringing until you've walked enough steps.
+        NSMotionUsageDescription: GetUp counts your steps to turn off the alarm.
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.bbioren.GetUp

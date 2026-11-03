@@ -8,50 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		26EB1AE4092DB97D31817B35 /* GetUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3F6BFC7ED79716E48EE6C /* GetUpApp.swift */; };
+		2E8A3BADF397E79A5ED336A4 /* PhoneViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B6DB1DA22A659B044854A /* PhoneViews.swift */; };
+		37BC1EFCDEB89CC6A96B1A73 /* OpenGetUpIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182676B29047B2E84880A85 /* OpenGetUpIntent.swift */; };
+		54E7A1EFA057E88A03F0A28A /* WakeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF137C9B7D175B85B3DB362 /* WakeController.swift */; };
 		91EF04D38C78ED9FA7BFFCC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18014997ABAD35DE78B56C45 /* ContentView.swift */; };
 		A77E5C1ADD1B0085B20E26F1 /* HeartRateMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DC617EEA2A3C8CDB082FAC /* HeartRateMonitor.swift */; };
-		A9E3DD0C76F2F91763700E5A /* GetUpWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A3169E118A15829E7BACDBAA /* GetUpWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AA1B7D3DBDB13D3D5935BA8F /* GetUpPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51DCD316AB3E4FC932B92A7 /* GetUpPhoneApp.swift */; };
 		F6BAA70B4D0E04C58676A1E7 /* ChallengeTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983F567B8CCA264462CC28D /* ChallengeTracker.swift */; };
 		FA3A671ACC2FFC9F820A821A /* AlarmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63F02C18E7831717F13EEC2 /* AlarmManager.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0E1D861A6554E16A64033CF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1B52CA2F7D39F7347C52198F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B481E8330CC81CC01D0DFC7;
-			remoteInfo = GetUpWatch;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		0BCBB8F903765BCA62134FA8 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				A9E3DD0C76F2F91763700E5A /* GetUpWatch.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		0C19247B7C426CD6C855360B /* GetUp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GetUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B3F6BFC7ED79716E48EE6C /* GetUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUpApp.swift; sourceTree = "<group>"; };
 		10DE6BA8065E3516DF409685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1182676B29047B2E84880A85 /* OpenGetUpIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGetUpIntent.swift; sourceTree = "<group>"; };
 		18014997ABAD35DE78B56C45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2983F567B8CCA264462CC28D /* ChallengeTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTracker.swift; sourceTree = "<group>"; };
 		423084FE090A193010A4C465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6BF137C9B7D175B85B3DB362 /* WakeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeController.swift; sourceTree = "<group>"; };
 		72DC617EEA2A3C8CDB082FAC /* HeartRateMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMonitor.swift; sourceTree = "<group>"; };
 		9D0B5F12DCC178A07D09464B /* GetUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GetUp.entitlements; sourceTree = "<group>"; };
 		A3169E118A15829E7BACDBAA /* GetUpWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetUpWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A63F02C18E7831717F13EEC2 /* AlarmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmManager.swift; sourceTree = "<group>"; };
 		C51DCD316AB3E4FC932B92A7 /* GetUpPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUpPhoneApp.swift; sourceTree = "<group>"; };
+		FB9B6DB1DA22A659B044854A /* PhoneViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -92,6 +73,9 @@
 			children = (
 				C51DCD316AB3E4FC932B92A7 /* GetUpPhoneApp.swift */,
 				10DE6BA8065E3516DF409685 /* Info.plist */,
+				1182676B29047B2E84880A85 /* OpenGetUpIntent.swift */,
+				FB9B6DB1DA22A659B044854A /* PhoneViews.swift */,
+				6BF137C9B7D175B85B3DB362 /* WakeController.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -104,12 +88,10 @@
 			buildConfigurationList = B11B9791A1A4764AAC6026FB /* Build configuration list for PBXNativeTarget "GetUp" */;
 			buildPhases = (
 				6D11EB5B24E3B1C226B69060 /* Sources */,
-				0BCBB8F903765BCA62134FA8 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0D2E1F9718818CCA1925FEF5 /* PBXTargetDependency */,
 			);
 			name = GetUp;
 			packageProductDependencies = (
@@ -180,6 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1B7D3DBDB13D3D5935BA8F /* GetUpPhoneApp.swift in Sources */,
+				37BC1EFCDEB89CC6A96B1A73 /* OpenGetUpIntent.swift in Sources */,
+				2E8A3BADF397E79A5ED336A4 /* PhoneViews.swift in Sources */,
+				54E7A1EFA057E88A03F0A28A /* WakeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,14 +181,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0D2E1F9718818CCA1925FEF5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6B481E8330CC81CC01D0DFC7 /* GetUpWatch */;
-			targetProxy = 0E1D861A6554E16A64033CF7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2BEE50BFAFDD0DF8AC9400B2 /* Debug */ = {
@@ -290,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -367,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
